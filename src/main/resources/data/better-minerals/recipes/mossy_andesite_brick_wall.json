@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "better-minerals:mossy_andesite_bricks"
+      }
+    },
+    "result": {
+      "item": "better-minerals:mossy_andesite_brick_wall",
+      "count": 6
+    }
+  }

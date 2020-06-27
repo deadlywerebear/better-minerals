@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#",
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "better-minerals:diorite_brick_slab"
+      }
+    },
+    "result": {
+      "item": "better-minerals:chiseled_diorite_bricks"
+    }
+  }

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "better-minerals:diorite_bricks"
+  },
+  "result": "better-minerals:diorite_brick_wall",
+  "count": 1
+}

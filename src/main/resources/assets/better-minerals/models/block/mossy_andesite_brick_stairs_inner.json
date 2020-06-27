@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "better-minerals:block/mossy_andesite_bricks",
+        "top": "better-minerals:block/mossy_andesite_bricks",
+        "side": "better-minerals:block/mossy_andesite_bricks"
+    }
+}

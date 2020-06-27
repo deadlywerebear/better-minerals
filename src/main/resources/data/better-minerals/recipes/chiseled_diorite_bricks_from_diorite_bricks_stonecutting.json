@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+      "item": "better-minerals:diorite_bricks"
+    },
+    "result": "better-minerals:chiseled_diorite_bricks",
+    "count": 1
+  }

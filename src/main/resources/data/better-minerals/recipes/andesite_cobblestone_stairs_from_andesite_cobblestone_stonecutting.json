@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "better-minerals:andesite_cobblestone"
+  },
+  "result": "better-minerals:andesite_cobblestone_stairs",
+  "count": 1
+}

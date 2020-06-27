@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#  ",
+      "## ",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "better-minerals:mossy_diorite_cobblestone"
+      }
+    },
+    "result": {
+      "item": "better-minerals:mossy_diorite_cobblestone_stairs",
+      "count": 4
+    }
+  }

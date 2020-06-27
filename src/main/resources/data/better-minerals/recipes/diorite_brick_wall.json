@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "better-minerals:diorite_bricks"
+      }
+    },
+    "result": {
+      "item": "better-minerals:diorite_brick_wall",
+      "count": 6
+    }
+  }

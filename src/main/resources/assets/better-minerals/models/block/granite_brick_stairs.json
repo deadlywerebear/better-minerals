@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "better-minerals:block/granite_bricks",
+        "top": "better-minerals:block/granite_bricks",
+        "side": "better-minerals:block/granite_bricks"
+    }
+}

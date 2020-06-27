@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+      "item": "minecraft:granite"
+    },
+    "result": "better-minerals:granite_brick_slab",
+    "count": 2
+  }

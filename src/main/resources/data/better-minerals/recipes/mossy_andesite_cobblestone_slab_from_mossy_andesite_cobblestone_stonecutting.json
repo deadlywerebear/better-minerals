@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+      "item": "better-minerals:mossy_andesite_cobblestone"
+    },
+    "result": "better-minerals:mossy_andesite_cobblestone_slab",
+    "count": 2
+  }

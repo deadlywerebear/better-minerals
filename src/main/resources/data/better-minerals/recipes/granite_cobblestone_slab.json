@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "better-minerals:granite_cobblestone"
+      }
+    },
+    "result": {
+      "item": "better-minerals:granite_cobblestone_slab",
+      "count": 6
+    }
+  }

@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "better-minerals:diorite_cobblestone"
+      },
+      {
+        "item": "minecraft:vine"
+      }
+    ],
+    "result": {
+      "item": "better-minerals:mossy_diorite_cobblestone"
+    }
+  }

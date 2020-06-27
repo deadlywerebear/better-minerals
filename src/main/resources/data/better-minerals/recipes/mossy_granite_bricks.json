@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "better-minerals:granite_bricks"
+      },
+      {
+        "item": "minecraft:vine"
+      }
+    ],
+    "result": {
+      "item": "better-minerals:mossy_granite_bricks"
+    }
+  }

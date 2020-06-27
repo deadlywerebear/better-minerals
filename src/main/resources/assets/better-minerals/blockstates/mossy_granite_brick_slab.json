@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "better-minerals:block/mossy_granite_brick_slab" },
+        "type=top": { "model": "better-minerals:block/mossy_granite_brick_slab_top" },
+        "type=double": { "model": "better-minerals:block/mossy_granite_bricks" }
+    }
+}
