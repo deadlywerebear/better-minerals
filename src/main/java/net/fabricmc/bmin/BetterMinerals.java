@@ -4,7 +4,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.bmin.helpers.MyButtonBlock;
 import net.fabricmc.bmin.helpers.MyPressurePlate;
 import net.fabricmc.bmin.helpers.MyStairsBlock;
-import net.fabricmc.fabric.api.block.FabricBlockSettings;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.SlabBlock;
@@ -20,104 +20,104 @@ public class BetterMinerals implements ModInitializer {
 		// MAKE INSTANCES OF NEW BLOCKS
 
 		// Cobblestone
-		public static final Block ANDESITE_COBBLESTONE = new Block(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final Block DIORITE_COBBLESTONE = new Block(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final Block GRANITE_COBBLESTONE = new Block(FabricBlockSettings.copy(Blocks.STONE).build());
+		public static final Block ANDESITE_COBBLESTONE = new Block(FabricBlockSettings.copy(Blocks.STONE));
+		public static final Block DIORITE_COBBLESTONE = new Block(FabricBlockSettings.copy(Blocks.STONE));
+		public static final Block GRANITE_COBBLESTONE = new Block(FabricBlockSettings.copy(Blocks.STONE));
 
 		// Bricks
-		public static final Block ANDESITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final Block DIORITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final Block GRANITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE).build());
+		public static final Block ANDESITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE));
+		public static final Block DIORITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE));
+		public static final Block GRANITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE));
 
 		// Mossy Cobblestone
-		public static final Block MOSSY_ANDESITE_COBBLESTONE = new Block(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final Block MOSSY_DIORITE_COBBLESTONE = new Block(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final Block MOSSY_GRANITE_COBBLESTONE = new Block(FabricBlockSettings.copy(Blocks.STONE).build());
+		public static final Block MOSSY_ANDESITE_COBBLESTONE = new Block(FabricBlockSettings.copy(Blocks.STONE));
+		public static final Block MOSSY_DIORITE_COBBLESTONE = new Block(FabricBlockSettings.copy(Blocks.STONE));
+		public static final Block MOSSY_GRANITE_COBBLESTONE = new Block(FabricBlockSettings.copy(Blocks.STONE));
 
 		// Mossy Bricks
-		public static final Block MOSSY_ANDESITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final Block MOSSY_DIORITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final Block MOSSY_GRANITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE).build());
+		public static final Block MOSSY_ANDESITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE));
+		public static final Block MOSSY_DIORITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE));
+		public static final Block MOSSY_GRANITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE));
 
 		// Cracked Bricks
-		public static final Block CRACKED_ANDESITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final Block CRACKED_DIORITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final Block CRACKED_GRANITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE).build());
+		public static final Block CRACKED_ANDESITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE));
+		public static final Block CRACKED_DIORITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE));
+		public static final Block CRACKED_GRANITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE));
 
 		// Chiseled Bricks
-		public static final Block CHISELED_ANDESITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final Block CHISELED_DIORITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final Block CHISELED_GRANITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE).build());
+		public static final Block CHISELED_ANDESITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE));
+		public static final Block CHISELED_DIORITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE));
+		public static final Block CHISELED_GRANITE_BRICKS = new Block(FabricBlockSettings.copy(Blocks.STONE));
 
 		// Cobblestone Stairs
-		public static final MyStairsBlock ANDESITE_COBBLESTONE_STAIRS = new MyStairsBlock(ANDESITE_COBBLESTONE,FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final MyStairsBlock DIORITE_COBBLESTONE_STAIRS = new MyStairsBlock(DIORITE_COBBLESTONE,FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final MyStairsBlock GRANITE_COBBLESTONE_STAIRS = new MyStairsBlock(GRANITE_COBBLESTONE,FabricBlockSettings.copy(Blocks.STONE).build());
+		public static final MyStairsBlock ANDESITE_COBBLESTONE_STAIRS = new MyStairsBlock(ANDESITE_COBBLESTONE,FabricBlockSettings.copy(Blocks.STONE));
+		public static final MyStairsBlock DIORITE_COBBLESTONE_STAIRS = new MyStairsBlock(DIORITE_COBBLESTONE,FabricBlockSettings.copy(Blocks.STONE));
+		public static final MyStairsBlock GRANITE_COBBLESTONE_STAIRS = new MyStairsBlock(GRANITE_COBBLESTONE,FabricBlockSettings.copy(Blocks.STONE));
 
 		// Brick Stairs
-		public static final MyStairsBlock ANDESITE_BRICK_STAIRS = new MyStairsBlock(ANDESITE_BRICKS,FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final MyStairsBlock DIORITE_BRICK_STAIRS = new MyStairsBlock(DIORITE_BRICKS,FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final MyStairsBlock GRANITE_BRICK_STAIRS = new MyStairsBlock(GRANITE_BRICKS,FabricBlockSettings.copy(Blocks.STONE).build());
+		public static final MyStairsBlock ANDESITE_BRICK_STAIRS = new MyStairsBlock(ANDESITE_BRICKS,FabricBlockSettings.copy(Blocks.STONE));
+		public static final MyStairsBlock DIORITE_BRICK_STAIRS = new MyStairsBlock(DIORITE_BRICKS,FabricBlockSettings.copy(Blocks.STONE));
+		public static final MyStairsBlock GRANITE_BRICK_STAIRS = new MyStairsBlock(GRANITE_BRICKS,FabricBlockSettings.copy(Blocks.STONE));
 
 		// Mossy Cobblestone Stairs
-		public static final MyStairsBlock MOSSY_ANDESITE_COBBLESTONE_STAIRS = new MyStairsBlock(MOSSY_ANDESITE_COBBLESTONE,FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final MyStairsBlock MOSSY_DIORITE_COBBLESTONE_STAIRS = new MyStairsBlock(MOSSY_DIORITE_COBBLESTONE,FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final MyStairsBlock MOSSY_GRANITE_COBBLESTONE_STAIRS = new MyStairsBlock(MOSSY_GRANITE_COBBLESTONE,FabricBlockSettings.copy(Blocks.STONE).build());
+		public static final MyStairsBlock MOSSY_ANDESITE_COBBLESTONE_STAIRS = new MyStairsBlock(MOSSY_ANDESITE_COBBLESTONE,FabricBlockSettings.copy(Blocks.STONE));
+		public static final MyStairsBlock MOSSY_DIORITE_COBBLESTONE_STAIRS = new MyStairsBlock(MOSSY_DIORITE_COBBLESTONE,FabricBlockSettings.copy(Blocks.STONE));
+		public static final MyStairsBlock MOSSY_GRANITE_COBBLESTONE_STAIRS = new MyStairsBlock(MOSSY_GRANITE_COBBLESTONE,FabricBlockSettings.copy(Blocks.STONE));
 
 		// Mossy Brick Stairs
-		public static final MyStairsBlock MOSSY_ANDESITE_BRICK_STAIRS = new MyStairsBlock(MOSSY_ANDESITE_BRICKS,FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final MyStairsBlock MOSSY_DIORITE_BRICK_STAIRS = new MyStairsBlock(MOSSY_DIORITE_BRICKS,FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final MyStairsBlock MOSSY_GRANITE_BRICK_STAIRS = new MyStairsBlock(MOSSY_GRANITE_BRICKS,FabricBlockSettings.copy(Blocks.STONE).build());
+		public static final MyStairsBlock MOSSY_ANDESITE_BRICK_STAIRS = new MyStairsBlock(MOSSY_ANDESITE_BRICKS,FabricBlockSettings.copy(Blocks.STONE));
+		public static final MyStairsBlock MOSSY_DIORITE_BRICK_STAIRS = new MyStairsBlock(MOSSY_DIORITE_BRICKS,FabricBlockSettings.copy(Blocks.STONE));
+		public static final MyStairsBlock MOSSY_GRANITE_BRICK_STAIRS = new MyStairsBlock(MOSSY_GRANITE_BRICKS,FabricBlockSettings.copy(Blocks.STONE));
 
 		// Cobblestone Wall
-		public static final WallBlock ANDESITE_COBBLESTONE_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final WallBlock DIORITE_COBBLESTONE_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final WallBlock GRANITE_COBBLESTONE_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE).build());
+		public static final WallBlock ANDESITE_COBBLESTONE_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE));
+		public static final WallBlock DIORITE_COBBLESTONE_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE));
+		public static final WallBlock GRANITE_COBBLESTONE_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE));
 
 		// Brick Wall
-		public static final WallBlock ANDESITE_BRICK_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final WallBlock DIORITE_BRICK_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final WallBlock GRANITE_BRICK_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE).build());
+		public static final WallBlock ANDESITE_BRICK_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE));
+		public static final WallBlock DIORITE_BRICK_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE));
+		public static final WallBlock GRANITE_BRICK_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE));
 
 		// Mossy Cobblestone Wall
-		public static final WallBlock MOSSY_ANDESITE_COBBLESTONE_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final WallBlock MOSSY_DIORITE_COBBLESTONE_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final WallBlock MOSSY_GRANITE_COBBLESTONE_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE).build());
+		public static final WallBlock MOSSY_ANDESITE_COBBLESTONE_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE));
+		public static final WallBlock MOSSY_DIORITE_COBBLESTONE_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE));
+		public static final WallBlock MOSSY_GRANITE_COBBLESTONE_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE));
 
 		// Mossy Brick Wall
-		public static final WallBlock MOSSY_ANDESITE_BRICK_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final WallBlock MOSSY_DIORITE_BRICK_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final WallBlock MOSSY_GRANITE_BRICK_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE).build());
+		public static final WallBlock MOSSY_ANDESITE_BRICK_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE));
+		public static final WallBlock MOSSY_DIORITE_BRICK_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE));
+		public static final WallBlock MOSSY_GRANITE_BRICK_WALL = new WallBlock(FabricBlockSettings.copy(Blocks.STONE));
 
 		// Cobblestone Slab
-		public static final SlabBlock ANDESITE_COBBLESTONE_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final SlabBlock DIORITE_COBBLESTONE_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final SlabBlock GRANITE_COBBLESTONE_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE).build());
+		public static final SlabBlock ANDESITE_COBBLESTONE_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE));
+		public static final SlabBlock DIORITE_COBBLESTONE_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE));
+		public static final SlabBlock GRANITE_COBBLESTONE_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE));
 		
 		// Brick Slab
-		public static final SlabBlock ANDESITE_BRICK_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final SlabBlock DIORITE_BRICK_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final SlabBlock GRANITE_BRICK_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE).build());
+		public static final SlabBlock ANDESITE_BRICK_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE));
+		public static final SlabBlock DIORITE_BRICK_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE));
+		public static final SlabBlock GRANITE_BRICK_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE));
 
 		// Mossy Cobblestone Slab
-		public static final SlabBlock MOSSY_ANDESITE_COBBLESTONE_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final SlabBlock MOSSY_DIORITE_COBBLESTONE_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final SlabBlock MOSSY_GRANITE_COBBLESTONE_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE).build());
+		public static final SlabBlock MOSSY_ANDESITE_COBBLESTONE_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE));
+		public static final SlabBlock MOSSY_DIORITE_COBBLESTONE_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE));
+		public static final SlabBlock MOSSY_GRANITE_COBBLESTONE_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE));
 		
 		// Mossy Brick Slab
-		public static final SlabBlock MOSSY_ANDESITE_BRICK_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final SlabBlock MOSSY_DIORITE_BRICK_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final SlabBlock MOSSY_GRANITE_BRICK_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE).build());
+		public static final SlabBlock MOSSY_ANDESITE_BRICK_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE));
+		public static final SlabBlock MOSSY_DIORITE_BRICK_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE));
+		public static final SlabBlock MOSSY_GRANITE_BRICK_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.STONE));
 
 		// Buttons
-		public static final MyButtonBlock ANDESITE_BUTTON = new MyButtonBlock(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final MyButtonBlock DIORITE_BUTTON = new MyButtonBlock(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final MyButtonBlock GRANITE_BUTTON = new MyButtonBlock(FabricBlockSettings.copy(Blocks.STONE).build());
+		public static final MyButtonBlock ANDESITE_BUTTON = new MyButtonBlock(FabricBlockSettings.copy(Blocks.STONE));
+		public static final MyButtonBlock DIORITE_BUTTON = new MyButtonBlock(FabricBlockSettings.copy(Blocks.STONE));
+		public static final MyButtonBlock GRANITE_BUTTON = new MyButtonBlock(FabricBlockSettings.copy(Blocks.STONE));
 
 		// Pressure Plates
-		public static final MyPressurePlate ANDESITE_PRESSURE_PLATE = new MyPressurePlate(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final MyPressurePlate DIORITE_PRESSURE_PLATE = new MyPressurePlate(FabricBlockSettings.copy(Blocks.STONE).build());
-		public static final MyPressurePlate GRANITE_PRESSURE_PLATE = new MyPressurePlate(FabricBlockSettings.copy(Blocks.STONE).build());
+		public static final MyPressurePlate ANDESITE_PRESSURE_PLATE = new MyPressurePlate(FabricBlockSettings.copy(Blocks.STONE));
+		public static final MyPressurePlate DIORITE_PRESSURE_PLATE = new MyPressurePlate(FabricBlockSettings.copy(Blocks.STONE));
+		public static final MyPressurePlate GRANITE_PRESSURE_PLATE = new MyPressurePlate(FabricBlockSettings.copy(Blocks.STONE));
 
 		@Override
 		public void onInitialize() {
